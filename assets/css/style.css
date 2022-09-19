@@ -243,11 +243,51 @@ h2{
 }
 
 .left_card h3{
-    
+    padding: 2rem 0rem;
+    color: white;
+}
+
+.left_card p{
+    font-size: 0.8rem;
+    padding-bottom: 2rem;
+    line-height: 1.5rem;
+    color: white;
 }
 
 .plan1{
     width: 300px;
+}
+
+.plan2{
+    width: 150px;
+}
+
+.right_card{
+    text-align: center;
+    background-color: white;
+    max-width: 50%;
+    border-radius: 1.8rem;
+    margin-top: 8.2rem;
+    padding: 1rem;
+    margin-left: 2rem;
+}
+
+.right_card h3{
+    padding-top: 1rem;
+}
+
+.right_card p{
+    font-style: italic;
+    line-height: 1.5rem;
+    padding: 1rem 0rem;
+}
+
+
+.fa-arrow-down-long{
+    background-color: var(--alternative_bg);
+    padding: 0.6rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
 }
 
 
@@ -274,6 +314,25 @@ h2{
     }
     .phone{
         margin-left: 1rem;
+    }
+    .left_card{
+        text-align: left;
+        margin-left: 0;
+    }
+    .left_card img{
+        width: 100%;
+        padding: 0;
+    }
+    .right_card{
+        text-align: center;
+        background-color: white;
+        max-width: 100%;
+        border-radius: 1.8rem;
+        margin: 0;
+        margin-bottom: 2rem;
+    }
+    .right_card img{
+        width: 100%;
     }
 }
 
