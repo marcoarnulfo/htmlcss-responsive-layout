@@ -14,8 +14,44 @@
 
 /* #region utility */
 
+.container{
+    max-width: 70%;
+    margin: auto;
+}
 
+.flex{
+    display: flex;
+}
 
+.wrap{
+    flex-wrap: wrap;
+}
+
+.debug{
+    background-color: red;
+    height: 300px;
+    border: 2px solid black;
+}
+
+.debug_small{
+    background-color: red;
+    height: 150px;
+    border: 2px solid black;
+}
+
+.avatar_debug{
+    height: 150px;
+    width: 150px;
+    background-color: green;
+    border: 2px solid black;
+}
+
+.bio_debug{
+    height: 150px;
+    width: 400px;
+    background-color: yellow;
+    border: 2px solid black;
+}
 /* #endregion utility */
 
 /* #region col_ */
@@ -90,7 +126,25 @@ nav ul{
 }
 /* #endregion header */
 
+
+
 /* #region main */
+
+@media screen and (max-width: 480px) {
+    .col_12_mobile {
+        width: calc((100% / 12) * 12);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .col_12_tablet {
+        width: calc((100% / 12) * 12);
+    }
+}
+
+.bg_container{
+    background-color: var(--alternative_bg);
+}
 
 /* #endregion main */
 
