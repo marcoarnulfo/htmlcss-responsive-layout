@@ -14,6 +14,8 @@
 
 /* #region utility */
 
+
+
 /* #endregion utility */
 
 /* #region col_ */
@@ -70,6 +72,22 @@
 
 /* #region header */
 
+#site_header{
+    background-color: var(--nav_bar);
+}
+
+nav{
+    max-width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul{
+    display: flex;
+    gap: 1rem;
+    list-style-type: none;
+}
 /* #endregion header */
 
 /* #region main */
