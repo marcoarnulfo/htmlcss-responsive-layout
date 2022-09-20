@@ -196,10 +196,8 @@ nav ul{
 
 
 .phone{
-    padding-top: 3.5rem;
-    margin-left: 3rem;
     max-width: 60%;
-    margin-bottom: -1%;
+    align-self: end;
 }
 
 
@@ -229,17 +227,30 @@ nav ul{
 }
 
 .left_card{
-    text-align: left;
-    margin-left: 15rem;
+    text-align: right;
+    max-width: 60%;
+}
+
+.right{
+    justify-content: right;
+}
+
+.left_card img,
+.right_card img{
+    max-width: 100%;
 }
 
 .left_card img{
-    padding: 4rem 2rem;
+    margin-right: 3rem;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
 }
+
 
 .left_card h3{
     padding: 2rem 0rem;
     color: white;
+    text-align: left;
 }
 
 .left_card p{
@@ -247,14 +258,13 @@ nav ul{
     padding-bottom: 2rem;
     line-height: 1.5rem;
     color: white;
+    text-align: left;
 }
+
 
 .plan1{
     width: 300px;
-}
-
-.plan2{
-    width: 150px;
+    
 }
 
 .right_card{
@@ -262,9 +272,13 @@ nav ul{
     background-color: white;
     max-width: 50%;
     border-radius: 1.8rem;
-    margin-top: 8.2rem;
-    padding: 1rem;
-    margin-left: 2rem;
+    align-self: end;
+    margin-bottom: 3rem;
+    padding: 1rem 1rem;
+}
+
+.plan2{
+    width: 150px;
 }
 
 .right_card h3{
@@ -273,7 +287,6 @@ nav ul{
 
 .right_card p{
     font-style: italic;
-    line-height: 1.5rem;
     padding: 1rem 0rem;
 }
 
@@ -376,6 +389,15 @@ nav ul{
     .container{
         max-width: 90%;
         margin: auto;
+    }
+
+    .right{
+        justify-content: center;
+    }
+
+    .left_card{
+        text-align: right;
+        max-width: 100%;
     }
 }
 
