@@ -10,9 +10,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -20,12 +21,24 @@
         <nav>
             <img src="./assets/img/logo.png" alt="">
             <ul>
-                <li>Planning</li>
-                <li>Testimonials</li>
-                <li>Features</li>
-                <li>About Us</li>
+                <li class="links"><a href="#">Planning</a></li>
+                <li class="links"><a href="#">Testimonials</a></li>
+                <li class="links"><a href="#">Features</a></li>
+                <li class="links"><a href="#">About Us</a></li>
                 <li><a class="started" href="#">Get Started</a></li>
             </ul>
+            <div class="bars">
+                <i class="fa-solid fa-bars"></i>
+                <div class="dropdown-content">
+                    <a href="#">Planning</a>
+                    <a href="#">Testimonials</a>
+                    <a href="#">Features</a>
+                    <a href="#">About Us</a>
+                    <a href="#">Get Started</a>
+                </div>
+            </div>
+
+
         </nav>
     </header>
     <!-- /#site_header -->
@@ -138,7 +151,7 @@
             </div>
             <div class="row flex wrap">
 
-                <div class="bg_purple flex ">
+                <div class="bg_purple flex testimonial_card">
                     <div class="avatar col_12_mobile">
                         <img src="./assets/img/testimonial1.jpg" alt="">
                     </div>
@@ -147,11 +160,11 @@
                         Vitae suscipit tellus mauris a diam maecaneas sed enim ut. Mauris augue neque gravida in
                         fermentum.
                         Praesent semper freugiat nibh pulvinar provin.
-                        <span><i class="fa-solid fa-quote-right"></i></i></span>
+                        <span><i class="fa-solid fa-quote-right"></i></span>
                         <div><strong>NAT REYNOLDS</strong></div>
                     </div>
                 </div>
-                <div class="bg_purple flex ">
+                <div class="bg_purple flex testimonial_card">
                     <div class="avatar col_12_mobile">
                         <img src="./assets/img/testimonial2.jpg" alt="">
                     </div>
@@ -160,11 +173,11 @@
                         Vitae suscipit tellus mauris a diam maecaneas sed enim ut. Mauris augue neque gravida in
                         fermentum.
                         Praesent semper freugiat nibh pulvinar provin.
-                        <span><i class="fa-solid fa-quote-right"></i></i></span>
+                        <span><i class="fa-solid fa-quote-right"></i></span>
                         <div><strong>CELIA ALMEDA</strong></div>
                     </div>
                 </div>
-                <div class="bg_purple flex">
+                <div class="bg_purple flex testimonial_card">
                     <div class="avatar col_12_mobile">
                         <img src="./assets/img/testimonial3.jpg" alt="">
                     </div>
@@ -173,21 +186,23 @@
                         Vitae suscipit tellus mauris a diam maecaneas sed enim ut. Mauris augue neque gravida in
                         fermentum.
                         Praesent semper freugiat nibh pulvinar provin.
-                        <span><i class="fa-solid fa-quote-right"></i></i></span>
+                        <span><i class="fa-solid fa-quote-right"></i></span>
                         <div><strong>BOB ROBERTS</strong></div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="bg_container spacing">
-            <div class="container benefits"> <!-- Benefits-->
+            <div class="container benefits">
+                <!-- Benefits-->
                 <h2>Benefits of working with us</h2>
                 <div class="row flex wrap gap">
                     <div class="col_4 col_12_mobile col_6_tablet_gap ">
                         <div class="card">
                             <div class="count">01</div>
                             <h3 class="title">Hight Quality</h3>
-                            <p>Vitae suscipit tellus mauris a diam maecenas sed enim ut. mauris augue neque gravida in fermentum. Praesent semper feugiat nibh sed pulvinar proin id venenatis.</p>
+                            <p>Vitae suscipit tellus mauris a diam maecenas sed enim ut. mauris augue neque gravida in
+                                fermentum. Praesent semper feugiat nibh sed pulvinar proin id venenatis.</p>
                             <a class="more" href="#">more</a>
                         </div>
                     </div>
@@ -196,7 +211,8 @@
                         <div class="card">
                             <div class="count">02</div>
                             <h3 class="title">Creative Team</h3>
-                            <p>Vitae suscipit tellus mauris a diam maecenas sed enim ut. mauris augue neque gravida in fermentum. Praesent semper feugiat nibh sed pulvinar proin id venenatis.</p>
+                            <p>Vitae suscipit tellus mauris a diam maecenas sed enim ut. mauris augue neque gravida in
+                                fermentum. Praesent semper feugiat nibh sed pulvinar proin id venenatis.</p>
                             <a class="more" href="#">more</a>
                         </div>
                     </div>
@@ -205,7 +221,8 @@
                         <div class="card">
                             <div class="count">03</div>
                             <h3 class="title">Amazing Results</h3>
-                            <p>Vitae suscipit tellus mauris a diam maecenas sed enim ut. mauris augue neque gravida in fermentum. Praesent semper feugiat nibh sed pulvinar proin id venenatis.</p>
+                            <p>Vitae suscipit tellus mauris a diam maecenas sed enim ut. mauris augue neque gravida in
+                                fermentum. Praesent semper feugiat nibh sed pulvinar proin id venenatis.</p>
                             <a class="more" href="#">more</a>
                         </div>
                     </div>
@@ -214,7 +231,8 @@
                         <div class="card">
                             <div class="count">04</div>
                             <h3 class="title">Best Pricing</h3>
-                            <p>Vitae suscipit tellus mauris a diam maecenas sed enim ut. mauris augue neque gravida in fermentum. Praesent semper feugiat nibh sed pulvinar proin id venenatis.</p>
+                            <p>Vitae suscipit tellus mauris a diam maecenas sed enim ut. mauris augue neque gravida in
+                                fermentum. Praesent semper feugiat nibh sed pulvinar proin id venenatis.</p>
                             <a class="more" href="#">more</a>
                         </div>
                     </div>
@@ -223,7 +241,8 @@
                         <div class="card">
                             <div class="count">05</div>
                             <h3 class="title">Innovations</h3>
-                            <p>Vitae suscipit tellus mauris a diam maecenas sed enim ut. mauris augue neque gravida in fermentum. Praesent semper feugiat nibh sed pulvinar proin id venenatis.</p>
+                            <p>Vitae suscipit tellus mauris a diam maecenas sed enim ut. mauris augue neque gravida in
+                                fermentum. Praesent semper feugiat nibh sed pulvinar proin id venenatis.</p>
                             <a class="more" href="#">more</a>
                         </div>
                     </div>
@@ -232,7 +251,8 @@
                         <div class="card">
                             <div class="count">06</div>
                             <h3 class="title">24/7 Support</h3>
-                            <p>Vitae suscipit tellus mauris a diam maecenas sed enim ut. mauris augue neque gravida in fermentum. Praesent semper feugiat nibh sed pulvinar proin id venenatis.</p>
+                            <p>Vitae suscipit tellus mauris a diam maecenas sed enim ut. mauris augue neque gravida in
+                                fermentum. Praesent semper feugiat nibh sed pulvinar proin id venenatis.</p>
                             <a class="more" href="#">more</a>
                         </div>
                     </div>
@@ -241,13 +261,23 @@
             </div>
         </div>
 
-        <div class="container"> <!-- About US-->
+        <div class="container">
+            <!-- About US-->
             <div class="row flex wrap">
                 <div class="col_8 col_12_mobile ">
                     <div class="about_us">
                         <h3>About Us</h3>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus impedit quas vitae tenetur nostrum consequuntur possimus eaque dolorem ipsa dolore placeat hic porro explicabo corrupti quidem error perspiciatis, mollitia dicta. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit dignissimos quis illum doloremque aliquid nisi distinctio molestiae laudantium nam, minus facilis totam assumenda eveniet ex minima quaerat, culpa repellendus! Nihil?</p>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga rerum hic doloribus laborum sunt, at explicabo quod soluta omnis consequatur perferendis, magni ipsum unde, a labore deleniti magnam alias repellendus! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis facilis sit nulla temporibus magni exercitationem error minus quos modi? Rerum, amet. Veritatis cum accusantium dolorem, similique veniam sequi odio assumenda.</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus impedit quas vitae tenetur
+                            nostrum consequuntur possimus eaque dolorem ipsa dolore placeat hic porro explicabo corrupti
+                            quidem error perspiciatis, mollitia dicta. Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Impedit dignissimos quis illum doloremque aliquid nisi distinctio
+                            molestiae laudantium nam, minus facilis totam assumenda eveniet ex minima quaerat, culpa
+                            repellendus! Nihil?</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga rerum hic doloribus laborum
+                            sunt, at explicabo quod soluta omnis consequatur perferendis, magni ipsum unde, a labore
+                            deleniti magnam alias repellendus! Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Veritatis facilis sit nulla temporibus magni exercitationem error minus quos modi? Rerum,
+                            amet. Veritatis cum accusantium dolorem, similique veniam sequi odio assumenda.</p>
 
                     </div>
                 </div>
@@ -276,18 +306,22 @@
                 <div class="intro">GET STARTED</div>
                 <h2>Simple, Transparent Pricing</h2>
                 <div class="free">It's Free!</div>
-                <p>We're still in beta and we will be for awhile. as we add more functionality, we'll look into other plans with more controls.</p>
+                <p>We're still in beta and we will be for awhile. as we add more functionality, we'll look into other
+                    plans with more controls.</p>
                 <a class="start" href="#">Get Started</a>
-                <div class="copyright">Copyright 2022 Boolean &#8226; Classe 72 &#8226; <a href="#">Privacy policy</a> </div>
+                <div class="copyright">Copyright 2022 Boolean &#8226; Classe 72 &#8226; <a href="#">Privacy policy</a>
+                </div>
             </div>
         </div>
     </main>
     <!-- /#sitemain -->
     <footer id="site_footer">
-            <div class="bottom">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, sunt optio! Cum vel quia deleniti sed.</p>
-                <div class="autor"><a href="#">Lorem ipsum</a> scelerisque mauris pellentesque <a href="#">Boolean careers</a></div>
-            </div>
+        <div class="bottom">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, sunt optio! Cum vel quia deleniti
+                sed.</p>
+            <div class="autor"><a href="#">Lorem ipsum</a> scelerisque mauris pellentesque <a href="#">Boolean
+                    careers</a></div>
+        </div>
     </footer>
     <!-- /#site_footer -->
 </body>
