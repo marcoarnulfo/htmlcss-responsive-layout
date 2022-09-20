@@ -416,20 +416,24 @@ header a {
     margin-bottom: 1rem;
 }
 
-.testimonials {
+.testimonial {
     text-align: center;
     margin-top: 2rem;
 }
 
-.testimonials h2 {
+.testimonial h2 {
     font-size: 2.5rem;
     padding: 1rem;
     color: var(--alternative_bg);
 }
 
-.testimonials p {
+.testimonial p {
     padding-bottom: 2rem;
     font-size: 1.3rem;
+}
+
+.testimonials{
+    justify-content: center;
 }
 
 .avatar img {
