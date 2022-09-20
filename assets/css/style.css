@@ -185,10 +185,15 @@ nav ul{
 .demo{
     padding: 1.5rem;
 }
+.demo h3{
+    color: var(--nav_bar);
+    font-size: 1.4rem;
+}
 
 .demo p{
     padding-top: 2rem;
     line-height: 1.5rem;
+    max-width: 90%;
 }
 
 .demo > div{
@@ -196,6 +201,7 @@ nav ul{
 }
 
 .store{
+    display: inline-block;
     text-decoration: none;
     color: white;
     background-color: var(--nav_bar);
@@ -229,6 +235,7 @@ nav ul{
 
 .clear_code>h3{
     padding-top: 2rem;
+    color: var(--nav_bar);
 }
 
 .clear_code>p{
@@ -269,6 +276,7 @@ nav ul{
     line-height: 1.5rem;
     color: white;
     text-align: left;
+    max-width: 90%;
 }
 
 
@@ -321,6 +329,7 @@ nav ul{
 }
 
 .testimonials h2{
+    font-size: 2.5rem;
     padding: 1rem;
     color: var(--alternative_bg);
 }
@@ -335,6 +344,7 @@ nav ul{
     width: 200px;
     height: 200px;
     border-radius: 50%;
+    object-fit: cover;
 }
 
 .bio{
@@ -393,12 +403,146 @@ nav ul{
     border-radius: 2rem;
 }
 
+.about_us{
+    padding: 1rem;
+    max-width: 90%;
+    margin-bottom: 5rem;
+}
+
+.about_us h3{
+    color: var(--alternative_bg);
+    font-size: 3rem;
+}
+
+.about_us p{
+    line-height: 1.5rem;
+    padding: 1rem 0rem;
+
+}
+
+.about{
+    max-width: 100%;
+    max-width: 200px;
+    max-height: 200px;
+    min-width: 200px;
+    min-height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+ .testimonal_about{
+    width: 70%;
+} 
+
+.testimonal_about div{
+    color: var(--alternative_bg);
+    font-weight:bold;
+    font-size: 1.4rem;
+}
+
+.linkedin{
+    margin-top: 1rem;
+    display: inline-block;
+    text-decoration: none;
+    background-color: var(--alternative_bg);
+    padding: 0.5rem;
+    color: white;
+    border-radius: 3rem;
+    font-size: 0.9rem;
+    word-spacing: 2px;
+    margin-bottom: 3.5rem;
+}
+
+.relative{
+    position: relative;
+    display: inline-block;
+}
+
+.violet_quote{
+    font-size: 3.7rem;
+    position: absolute;
+    right: 0;
+    color: var(--alternative_bg);
+}
+
+.get_started{
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    color: white;
+}
+
+.intro{
+    color: #d5d4f4;
+    padding: 1rem;
+}
+
+.get_started h2{
+    font-size: 2rem;
+}
+
+.free{
+    font-size: 4.5rem;
+    padding: 1rem;
+    font-weight: bold;
+    color: var(--free);
+}
+
+.get_started p{
+    line-height: 1.5rem;
+    width: 65%;
+    margin: auto;
+}
+
+.start{
+    font-weight: bold;
+    display: inline-block;
+    text-decoration: none;
+    color: var(--alternative_bg);
+    background-color: white;
+    padding: 1rem 4rem;
+    border-radius: 2rem;
+    margin: 1rem 0rem;
+}
+
+.copyright{
+    font-size: 0.7rem;
+    padding-bottom: 3rem;
+}
+
+.copyright a{
+    color: white;
+}
 /* #endregion main */
 
 /* #region footer */
 
 #site_footer{
     background-color: var(--footer);
+}
+
+.bottom{
+    color: white;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+
+.bottom p{
+    padding-top: 3rem;
+    width: 65%;
+    margin: auto;
+}
+
+.autor{
+    width: 65%;
+    margin: auto;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.autor a{
+    color: var(--alternative_bg);
 }
 
 /* #endregion footer */
@@ -431,6 +575,10 @@ nav ul{
         width: 100%;
         padding: 0;
     }
+    .left_card p{
+        max-width: 100%;
+    }
+
     .right_card{
         text-align: center;
         background-color: white;
@@ -460,11 +608,35 @@ nav ul{
     .col_6_tablet_gap{
         width: calc((100% / 12) * 6 - 1rem);
     }
+
+    .testimonal_about{
+        width: 100%;
+    }
+
+    .get_started,
+    .bottom{
+        width: 80%;
+    }
+
+    .get_started p{
+        width: 90%;
+    }
+    .get_started h2{
+        font-size: 2.2rem;
+    }
+
+    .autor{
+        width: 70%;
+    }
+    .demo p{
+        max-width: 100%;
+    }
 }
 
 
 
 @media screen and (max-width: 480px) {
+
     .col_12_mobile {
         width: calc((100% / 12) * 12);
     }
@@ -498,6 +670,28 @@ nav ul{
 
     .avatar, .bio{
         text-align: center;
+    }
+
+    .testimonal_about{
+        width:100%;
+    }
+
+    .about_us{
+        margin-bottom: 1rem;
+    }
+
+    .get_started,
+    .bottom{
+        width: 90%;
+    }
+
+    .bottom p,
+    .autor{
+        width: 85%;
+    }
+
+    .start{
+        padding: 1rem 6rem;
     }
 
 }
