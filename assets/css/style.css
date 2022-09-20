@@ -12,6 +12,10 @@
     --footer: #333333;
 }
 
+body{
+    font-family:'PT Sans', sans-serif;
+}
+
 /* #region utility */
 
 .container{
@@ -22,6 +26,12 @@
 .pd_topbot3{
     padding-top: 3rem;
     padding-bottom: 3rem;
+}
+
+.spacing{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
 }
 
 .flex{
@@ -273,7 +283,7 @@ nav ul{
     max-width: 50%;
     border-radius: 1.8rem;
     align-self: end;
-    margin-bottom: 3rem;
+    margin-bottom: 2.3rem;
     padding: 1rem 1rem;
 }
 
@@ -336,6 +346,53 @@ nav ul{
 .bio div{
     padding-top: 2rem;
 }
+
+.benefits h2{
+    text-align: center;
+    padding: 2rem;
+    color: white;
+    font-size: 2.7rem;
+}
+
+.card{
+    padding: 1.5rem;
+    background-color: white;
+    border-radius: 1.5rem;
+}
+
+.card p{
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.card h3, .count{
+    color: var(--alternative_bg);
+}
+
+.card h3{
+    font-size: 1.6rem;
+    padding-bottom: 1rem;
+    padding-top: 0.5rem;
+}
+
+.count{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+
+
+.more{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+    background-color: var(--alternative_bg);
+    padding: 0.5rem 2rem;
+    border-radius: 2rem;
+}
+
 /* #endregion main */
 
 /* #region footer */
@@ -398,6 +455,10 @@ nav ul{
     .left_card{
         text-align: right;
         max-width: 100%;
+    }
+
+    .col_6_tablet_gap{
+        width: calc((100% / 12) * 6 - 1rem);
     }
 }
 
