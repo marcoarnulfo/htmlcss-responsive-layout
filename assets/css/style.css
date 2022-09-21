@@ -46,41 +46,6 @@ body {
     gap: 1rem;
 }
 
-
-.debug {
-    background-color: red;
-    height: 300px;
-    border: 2px solid black;
-}
-
-.debug_small {
-    background-color: red;
-    height: 150px;
-    border: 2px solid black;
-}
-
-.avatar_debug {
-    width: 30%;
-    background-color: green;
-    border: 2px solid black;
-}
-
-.bio_debug {
-    height: 150px;
-    width: 100%;
-    background-color: yellow;
-    border: 2px solid black;
-}
-
-.free_debug {
-    width: 300px;
-    height: 300px;
-    background-color: green;
-    border: 2px solid black;
-    max-width: 60%;
-    margin: auto;
-}
-
 /* #endregion utility */
 
 /* #region col_ */
